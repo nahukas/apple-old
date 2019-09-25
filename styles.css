@@ -173,3 +173,32 @@ li > input:focus {
 footer {
   height: 25vh;
 }
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  height: 15vh;
+}
+
+.footer1 div {
+  display: flex;
+  flex: 1;
+  height: 25vh;
+
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: #464646;
+}
+
+.footer1 div:nth-child(1) {
+  background-image: url('./assets//img/promo_iphone5s.jpg');
+}
+.footer1 div:nth-child(2) {
+  background-image: url('./assets//img/promo_iphone5c.jpg');
+}
+.footer1 div:nth-child(3) {
+  background-image: url('./assets//img/promo_30_years.jpg');
+}
+.footer1 div:nth-child(4) {
+  background-image: url('./assets//img/promo_supplier_responsibility.jpg');
+}
