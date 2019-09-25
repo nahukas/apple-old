@@ -143,10 +143,13 @@ nav li:last-of-type {
 
 nav li a {
   height: 35px;
-  color: #ffffff;
+  color: #ffffffe6;
   text-decoration: none;
   text-align: center;
   font-size: 15px;
+  font-weight: 400;
+  text-shadow: -1px 0 #00000057, 0 1px #00000057, 1px 0 #00000057,
+    0 -1px #00000057;
 }
 
 li a > div {
