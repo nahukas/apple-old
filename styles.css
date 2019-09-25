@@ -1,3 +1,4 @@
+/* general */
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
@@ -9,7 +10,7 @@ main {
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: auto;
-  height: 75vh;
+  height: 65vh;
   align-items: center;
 
   display: flex;
@@ -58,7 +59,7 @@ nav {
   border-radius: 5px;
   height: 40px;
   width: 80%;
-  margin: 17vh auto 0 auto;
+  margin: 10vh auto 0 auto;
   position: static;
   font-size: 12px;
   background: #757575; /* Old browsers */
@@ -170,35 +171,95 @@ li > input:focus {
   color: black;
 }
 
+/* footer */
 footer {
-  height: 25vh;
+  display: flex;
+  height: 35vh;
+  flex-direction: column;
 }
 
-.footer-container {
+/* footer-top */
+
+.footer-top {
   display: flex;
   flex-direction: row;
-  height: 15vh;
+  height: 25vh;
 }
 
-.footer1 div {
+.footer-top div {
   display: flex;
   flex: 1;
-  height: 25vh;
+  cursor: pointer;
+  border: 1.5px solid white;
 
   background-position: center center;
   background-repeat: no-repeat;
   background-color: #464646;
+  background-size: auto;
 }
 
-.footer1 div:nth-child(1) {
+.footer-top div:nth-child(1) {
   background-image: url('./assets//img/promo_iphone5s.jpg');
+  border-left: 3px solid white;
 }
-.footer1 div:nth-child(2) {
+.footer-top div:nth-child(2) {
   background-image: url('./assets//img/promo_iphone5c.jpg');
 }
-.footer1 div:nth-child(3) {
+.footer-top div:nth-child(3) {
   background-image: url('./assets//img/promo_30_years.jpg');
 }
-.footer1 div:nth-child(4) {
+.footer-top div:nth-child(4) {
   background-image: url('./assets//img/promo_supplier_responsibility.jpg');
+  border-right: 3px solid white;
+}
+
+/* footer - bottom */
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+  height: 10vh;
+  background: #ffffff;
+  width: 100%;
+  color: #6e6e6e;
+  font-weight: 300;
+  font-size: 11px;
+}
+
+.footer-bottom a {
+  color: #0088cc;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
+
+.links-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.links-top-left {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.links-top-right {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+  padding: 20px;
+}
+
+.links-top-right img {
+  height: 10px;
+  width: auto;
+  margin-left: 5px;
+}
+
+.links-bottom {
+  padding: 0px 20px;
 }
