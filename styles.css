@@ -46,9 +46,14 @@ main {
 }
 .text-over a {
   cursor: pointer;
+  color: #ffffffbd;
+  text-decoration: none;
 }
 .text-over a:hover {
   text-decoration: underline;
+}
+.text-over a:visited {
+  color: #ffffffbd;
 }
 
 /* navbar */
