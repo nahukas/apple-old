@@ -140,6 +140,20 @@ nav li {
   border-right: 1.2px solid #0000003d;
 }
 
+nav li a {
+  height: 35px;
+  color: #ffffffe6;
+  text-decoration: none;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  text-shadow:
+    -1px 0 #00000057,
+    0 1px #00000057,
+    1px 0 #00000057,
+    0 -1px #00000057;
+}
+
 nav li:hover {
   background-color: rgba(0, 0, 0, 0.466);
 }
@@ -163,20 +177,6 @@ li a > div {
   width: 40px;
   justify-content: center;
   align-items: center;
-}
-
-nav li a {
-  height: 35px;
-  color: #ffffffe6;
-  text-decoration: none;
-  text-align: center;
-  font-size: 15px;
-  font-weight: 400;
-  text-shadow:
-    -1px 0 #00000057,
-    0 1px #00000057,
-    1px 0 #00000057,
-    0 -1px #00000057;
 }
 
 li > input {
