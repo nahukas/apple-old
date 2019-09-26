@@ -140,7 +140,7 @@ nav li {
   border-right: 1.2px solid #0000003d;
 }
 
-nav li a {
+.nav-links {
   height: 35px;
   color: #ffffffe6;
   text-decoration: none;
