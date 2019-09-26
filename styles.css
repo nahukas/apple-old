@@ -10,7 +10,7 @@ main {
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: auto;
-  height: 65vh;
+  height: 90vh;
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -80,10 +80,9 @@ nav {
   position: static;
   font-size: 12px;
   background: #757575; /* Old browsers */
-  
   background:
     -moz-linear-gradient(
-    top,
+      top,
       #757575 0%,
       #565656 40%,
       #4f4f4f 50%,
@@ -93,7 +92,7 @@ nav {
 
   background:
     -webkit-linear-gradient(
-    top,
+      top,
       #757575 0%,
       #565656 40%,
       #4f4f4f 50%,
@@ -204,7 +203,7 @@ li > input:focus {
 /* footer */
 footer {
   display: flex;
-  height: 35vh;
+  height: 10vh;
   flex-direction: column;
 }
 
@@ -214,6 +213,7 @@ footer {
   display: flex;
   flex-direction: row;
   height: 25vh;
+  width: 100%
 }
 
 .footer-top div {
@@ -224,7 +224,6 @@ footer {
 
   background-position: center center;
   background-repeat: no-repeat;
-  background-color: #464646;
   background-size: auto;
 }
 
