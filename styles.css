@@ -4,13 +4,13 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-main {
+.main-container {
   background-image: url('./assets/img/your_verse_hero.jpg');
   background-color: white;
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: auto;
-  height: 90vh;
+  height: 65vh;
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -213,7 +213,7 @@ footer {
   display: flex;
   flex-direction: row;
   height: 25vh;
-  width: 100%
+  width: 100%;
 }
 
 .footer-top div {
