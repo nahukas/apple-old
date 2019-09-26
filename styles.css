@@ -53,13 +53,6 @@ body {
   text-decoration: none;
 }
 
-.text-over a:hover {
-  text-decoration: underline;
-}
-
-.text-over a:visited {
-  color: #ffffffbd;
-}
 
 #playButton {
   height: 35px;
@@ -221,7 +214,6 @@ footer {
   flex: 1;
   cursor: pointer;
   border: 1.5px solid white;
-
   background-position: center center;
   background-repeat: no-repeat;
   background-size: auto;
@@ -294,4 +286,13 @@ footer {
 
 .links-bottom {
   padding: 0 20px;
+}
+
+
+.text-over a:hover {
+  text-decoration: underline;
+}
+
+.text-over a:visited {
+  color: #ffffffbd;
 }
