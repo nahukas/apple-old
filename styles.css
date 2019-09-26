@@ -53,7 +53,6 @@ body {
   text-decoration: none;
 }
 
-
 #playButton {
   height: 35px;
   position: absolute;
@@ -287,7 +286,6 @@ footer {
 .links-bottom {
   padding: 0 20px;
 }
-
 
 .text-over a:hover {
   text-decoration: underline;
