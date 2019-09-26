@@ -169,7 +169,6 @@ li > input {
   border-bottom: 1px solid rgb(144, 144, 144);
   border-left: none;
   border-right: none;
-  padding-left: 2em;
   border-radius: 10px;
   height: 20px;
   background: url('./assets/img/search_icon.png') 10px no-repeat;
@@ -232,7 +231,7 @@ footer {
   display: flex;
   flex-direction: column;
   height: 10vh;
-  background: #ffffff;
+  background: #fff;
   width: 100%;
   color: #6e6e6e;
   font-weight: 300;
@@ -240,7 +239,7 @@ footer {
 }
 
 .footer-bottom a {
-  color: #0088cc;
+  color: #08c;
   text-decoration: none;
 }
 
