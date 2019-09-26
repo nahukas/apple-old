@@ -4,7 +4,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-main {
+.main-container {
   background-image: url('./assets/img/your_verse_hero.jpg');
   background-color: white;
   background-repeat: no-repeat;
@@ -12,7 +12,6 @@ main {
   background-size: auto;
   height: 65vh;
   align-items: center;
-
   display: flex;
   flex-direction: column;
   font-weight: lighter;
@@ -33,27 +32,25 @@ main {
 .text-over p:nth-child(1) {
   font-size: 3.9em;
 }
+
 .text-over p:nth-child(2) {
   font-size: 2em;
   line-height: 1.5em;
 }
+
 .text-over p:nth-child(3) {
   font-size: 2em;
 }
+
 .text-over p:nth-child(4) {
   font-size: 1.7em;
   line-height: 2em;
 }
+
 .text-over a {
   cursor: pointer;
   color: #ffffffbd;
   text-decoration: none;
-}
-.text-over a:hover {
-  text-decoration: underline;
-}
-.text-over a:visited {
-  color: #ffffffbd;
 }
 
 #playButton {
@@ -75,31 +72,37 @@ nav {
   position: static;
   font-size: 12px;
   background: #757575; /* Old browsers */
-  background: -moz-linear-gradient(
-    top,
-    #757575 0%,
-    #565656 40%,
-    #4f4f4f 50%,
-    #494949 60%,
-    #7f7f7f 100%
-  ); /* FF3.6-15 */
-  background: -webkit-linear-gradient(
-    top,
-    #757575 0%,
-    #565656 40%,
-    #4f4f4f 50%,
-    #494949 60%,
-    #7f7f7f 100%
-  ); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(
-    to bottom,
-    #757575 0%,
-    #565656 40%,
-    #4f4f4f 50%,
-    #494949 60%,
-    #7f7f7f 100%
-  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#757575', endColorstr='#7f7f7f',GradientType=0 );
+  background:
+    -moz-linear-gradient(
+      top,
+      #757575 0%,
+      #565656 40%,
+      #4f4f4f 50%,
+      #494949 60%,
+      #7f7f7f 100%
+    ); /* FF3.6-15 */
+
+  background:
+    -webkit-linear-gradient(
+      top,
+      #757575 0%,
+      #565656 40%,
+      #4f4f4f 50%,
+      #494949 60%,
+      #7f7f7f 100%
+    ); /* Chrome10-25,Safari5.1-6 */
+
+  background:
+    linear-gradient(
+      to bottom,
+      #757575 0%,
+      #565656 40%,
+      #4f4f4f 50%,
+      #494949 60%,
+      #7f7f7f 100%
+    ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#757575', endColorstr='#7f7f7f', GradientType=0);
 }
 
 nav .container {
@@ -128,9 +131,25 @@ nav li {
   cursor: pointer;
   border-right: 1.2px solid #0000003d;
 }
+
+.nav-links {
+  height: 35px;
+  color: #ffffffe6;
+  text-decoration: none;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  text-shadow:
+    -1px 0 #00000057,
+    0 1px #00000057,
+    1px 0 #00000057,
+    0 -1px #00000057;
+}
+
 nav li:hover {
   background-color: rgba(0, 0, 0, 0.466);
 }
+
 nav li:first-of-type {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -139,17 +158,6 @@ nav li:first-of-type {
 nav li:last-of-type {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
-}
-
-nav li a {
-  height: 35px;
-  color: #ffffffe6;
-  text-decoration: none;
-  text-align: center;
-  font-size: 15px;
-  font-weight: 400;
-  text-shadow: -1px 0 #00000057, 0 1px #00000057, 1px 0 #00000057,
-    0 -1px #00000057;
 }
 
 li a > div {
@@ -169,7 +177,6 @@ li > input {
   border-bottom: 1px solid rgb(144, 144, 144);
   border-left: none;
   border-right: none;
-  padding-left: 2em;
   border-radius: 10px;
   height: 20px;
   background: url('./assets/img/search_icon.png') 10px no-repeat;
@@ -188,7 +195,7 @@ li > input:focus {
 /* footer */
 footer {
   display: flex;
-  height: 35vh;
+  height: 10vh;
   flex-direction: column;
 }
 
@@ -198,6 +205,7 @@ footer {
   display: flex;
   flex-direction: row;
   height: 25vh;
+  width: 100%;
 }
 
 .footer-top div {
@@ -205,10 +213,8 @@ footer {
   flex: 1;
   cursor: pointer;
   border: 1.5px solid white;
-
   background-position: center center;
   background-repeat: no-repeat;
-  background-color: #464646;
   background-size: auto;
 }
 
@@ -216,12 +222,15 @@ footer {
   background-image: url('./assets//img/promo_iphone5s.jpg');
   border-left: 3px solid white;
 }
+
 .footer-top div:nth-child(2) {
   background-image: url('./assets//img/promo_iphone5c.jpg');
 }
+
 .footer-top div:nth-child(3) {
   background-image: url('./assets//img/promo_30_years.jpg');
 }
+
 .footer-top div:nth-child(4) {
   background-image: url('./assets//img/promo_supplier_responsibility.jpg');
   border-right: 3px solid white;
@@ -232,7 +241,7 @@ footer {
   display: flex;
   flex-direction: column;
   height: 10vh;
-  background: #ffffff;
+  background: #fff;
   width: 100%;
   color: #6e6e6e;
   font-weight: 300;
@@ -240,7 +249,7 @@ footer {
 }
 
 .footer-bottom a {
-  color: #0088cc;
+  color: #08c;
   text-decoration: none;
 }
 
@@ -275,5 +284,13 @@ footer {
 }
 
 .links-bottom {
-  padding: 0px 20px;
+  padding: 0 20px;
+}
+
+.text-over a:hover {
+  text-decoration: underline;
+}
+
+.text-over a:visited {
+  color: #ffffffbd;
 }
